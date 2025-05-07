@@ -1,7 +1,7 @@
 import { ArrowRight, ArrowDown, BarChart, Zap, Clock } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 import ScrollAnimatedSection from "./ScrollAnimatedSection";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { useState } from "react";
 
 // Import project images

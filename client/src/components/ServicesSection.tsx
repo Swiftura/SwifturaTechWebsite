@@ -1,7 +1,7 @@
 import { ArrowRight, Shield, Zap, BarChart3 } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 import ScrollAnimatedSection from "./ScrollAnimatedSection";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 
 interface ServiceProps {
   title: string;

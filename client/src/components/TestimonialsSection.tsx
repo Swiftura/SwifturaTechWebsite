@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import SectionTitle from "./SectionTitle";
 import ScrollAnimatedSection from "./ScrollAnimatedSection";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
