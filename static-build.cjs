@@ -30,7 +30,8 @@ try {
   // Build client application
   console.log(`${colors.yellow}Building client application...${colors.reset}`);
   process.chdir(clientDir);
-  execSync('npx vite build --base=./ --outDir=../docs', { stdio: 'inherit' });
+  // Add --emptyOutDir to clean the output directory and ensure proper build
+  execSync('npx vite build --base=./ --outDir=../docs --emptyOutDir', { stdio: 'inherit' });
   
   // Copy index.html to 404.html (for GitHub Pages SPA routing)
   console.log(`${colors.yellow}Creating 404.html for SPA routing...${colors.reset}`);
