@@ -29,9 +29,23 @@ if (!fs.existsSync(docsDir)) {
 try {
   // Build client application
   console.log(`${colors.yellow}Building client application...${colors.reset}`);
+  
+  // Copy config files to client directory to ensure they're found during build
+  console.log(`${colors.yellow}Preparing build environment...${colors.reset}`);
+  fs.copyFileSync(path.join(__dirname, 'tailwind.config.ts'), path.join(clientDir, 'tailwind.config.ts'));
+  fs.copyFileSync(path.join(__dirname, 'postcss.config.js'), path.join(clientDir, 'postcss.config.js'));
+  
+  // Change to client directory for build
+  const originalDir = process.cwd();
   process.chdir(clientDir);
-  // Add --emptyOutDir to clean the output directory and ensure proper build
-  execSync('npx vite build --base=./ --outDir=../docs --emptyOutDir', { stdio: 'inherit' });
+  
+  try {
+    // Add --emptyOutDir to clean the output directory and ensure proper build
+    execSync('npx vite build --base=./ --outDir=../docs --emptyOutDir', { stdio: 'inherit' });
+  } finally {
+    // Change back to original directory
+    process.chdir(originalDir);
+  }
   
   // Copy index.html to 404.html (for GitHub Pages SPA routing)
   console.log(`${colors.yellow}Creating 404.html for SPA routing...${colors.reset}`);
