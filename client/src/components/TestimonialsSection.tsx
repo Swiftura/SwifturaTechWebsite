@@ -66,10 +66,10 @@ const TestimonialsSection = () => {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.5 }}
-                className="bg-[#1E293B] rounded-xl p-8 shadow-lg"
+                className="bg-dark-lighter rounded-xl p-8 shadow-lg"
               >
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-r from-primary to-[#0284C7] flex-shrink-0 flex items-center justify-center text-2xl font-bold text-white">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-r from-primary to-secondary flex-shrink-0 flex items-center justify-center text-2xl font-bold text-white">
                     {activeTestimonial.initials}
                   </div>
                   <div>
