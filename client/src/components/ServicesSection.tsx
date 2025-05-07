@@ -75,7 +75,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-20 bg-[#1E293B]">
+    <section id="services" className="py-20 bg-dark-lighter">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Our Automation Services"
