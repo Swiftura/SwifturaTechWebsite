@@ -1,89 +1,80 @@
-# Swiftura - AI Business Automation Solutions
+# Swiftura - AI Automation Solutions
 
-A modern, professional website for Swiftura, showcasing AI automation projects with dynamic, responsive design and dark-mode aesthetic.
+A modern, professional website for Swiftura, showcasing AI automation expertise and client success stories.
 
-## Features
+## 🚀 Project Overview
 
-- Responsive design for all devices
-- Dark theme with blue accent colors
-- Smooth scroll animations
-- Project showcase with results metrics
-- Testimonials carousel
-- Contact form
+This repository contains the source code for the Swiftura company website. The site features a dark navy blue background with blue accent colors, highlighting Swiftura's AI automation solutions through case studies and demonstrating the results achieved for clients.
 
-## Getting Started
+## 🖥️ Features
 
-### Prerequisites
+- **Modern Design**: Clean, professional interface with dark mode aesthetics
+- **Responsive Layout**: Fully responsive design that works on mobile, tablet, and desktop
+- **Case Studies**: Detailed project showcases with metrics and results
+- **Smooth Animations**: Subtle scroll animations for enhanced user experience
+- **Contact Form**: Simple lead capture form for potential clients
 
-- Node.js v14 or higher
-- npm or yarn
+## 🛠️ Technologies
 
-### Installation
+- **Frontend**: React.js, TypeScript, Tailwind CSS, Shadcn UI components
+- **Build System**: Vite
+- **Deployment**: GitHub Pages
+
+## 💻 Development
+
+This project uses a modern React.js stack with TypeScript and Vite.
+
+### Getting Started
 
 1. Clone the repository
-   ```sh
-   git clone https://github.com/yourusername/swiftura-website.git
-   cd swiftura-website
-   ```
-
-2. Install dependencies
-   ```sh
+2. Install dependencies:
+   ```bash
    npm install
    ```
-
-3. Start the development server
-   ```sh
+3. Start the development server:
+   ```bash
    npm run dev
    ```
 
-## Deployment to GitHub Pages
+### Folder Structure
 
-This website is fully compatible with GitHub Pages hosting. To deploy:
+- `client/` - Frontend React application
+  - `src/` - Source code
+    - `components/` - UI components
+    - `assets/` - Images and static assets
+    - `hooks/` - Custom React hooks
+    - `lib/` - Utility functions and libraries
+- `.github/workflows/` - GitHub Actions workflows for deployment
 
-### Option 1: Automatic Build
+## 📚 Deployment to GitHub Pages
 
-1. Push your code to GitHub
-2. The GitHub Action workflow will automatically build and deploy the site
-3. Go to Settings > Pages and ensure it's set to deploy from the `gh-pages` branch
+### Automatic Deployment
 
-### Option 2: Manual Build
+This project is set up to automatically deploy to GitHub Pages when changes are pushed to the main branch using GitHub Actions.
 
-1. Run the static build script:
-   ```sh
-   node static-build.js
+The workflow is defined in `.github/workflows/deploy.yml`.
+
+### Manual Deployment
+
+To manually build the site for GitHub Pages deployment:
+
+1. Run the build script:
+   ```bash
+   ./build-static.sh
    ```
+2. This will create a `docs/` directory with the static site
+3. Push the changes to GitHub
+4. In GitHub repository settings, configure GitHub Pages to use the `main` branch and `/docs` folder as the source
 
-2. This will create a `docs` folder with a GitHub Pages-ready static site
-3. Push changes to GitHub
-4. In repository settings, configure GitHub Pages to use the `main` branch and `/docs` folder
+## 🧩 Customization
 
-## Folder Structure
+To customize the site for your needs:
 
-```
-swiftura-website/
-├── .github/            # GitHub Actions workflows
-├── client/             # Frontend code
-│   ├── src/            # Source code
-│   │   ├── assets/     # Images and static assets
-│   │   ├── components/ # React components
-│   │   ├── hooks/      # Custom React hooks
-│   │   ├── lib/        # Utility functions
-│   │   ├── pages/      # Page components
-│   │   ├── App.tsx     # Main app component
-│   │   ├── index.css   # Global styles
-│   │   ├── main.tsx    # Entry point
-│   │   └── types.ts    # TypeScript types
-│   └── index.html      # HTML template
-├── docs/               # Generated static site (for GitHub Pages)
-├── static-build.js     # Script to build static site
-└── README.md           # This file
-```
+- Update content in the component files
+- Modify the color scheme in `client/src/index.css`
+- Replace images in the `client/src/assets/` directory
+- Adjust the contact form submission endpoint in `client/src/components/ContactForm.tsx`
 
-## Technology Stack
+## 📄 License
 
-- React.js 
-- TypeScript
-- TailwindCSS
-- Framer Motion (animations)
-- React Hook Form (form handling)
-- GitHub Pages (hosting)
+© 2025 Swiftura. All rights reserved.
