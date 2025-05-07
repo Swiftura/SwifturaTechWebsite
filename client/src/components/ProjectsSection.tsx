@@ -100,7 +100,7 @@ const projects = [
     expandedDescription: "Developed an intelligent follow-up system that automatically engages with website leads and contact form submissions, sending personalized messages based on inquiry type and following up with non-responsive leads after 24 hours. The system integrates with CRM platforms to track customer journey and optimize conversion rates.",
     image: leadNurtureImg,
     tags: ["Lead Generation", "Sales Automation", "Customer Acquisition"],
-    results: "Increased lead conversion rates by 34% and reduced response gaps by 95% and ensures no potential client goes without follow-up."
+    results: "Increased lead conversion rates by 34% and Reduced response gaps by 95% and Ensures no potential client goes without follow-up."
   },
   {
     title: "Automated Invoice Follow-up System",
@@ -108,7 +108,7 @@ const projects = [
     expandedDescription: "Developed a smart invoicing system that tracks payment statuses, sends personalized reminders at optimal times, and generates performance reports for accounting teams. The solution integrates with accounting software and automatically escalates follow-ups for overdue payments with appropriate messaging.",
     image: invoiceAutomationImg,
     tags: ["Financial Automation", "Communication", "Business Operations"],
-    results: "Reduced outstanding payment collection time by 48% and decreased accounting staff workload by 15 hours per week."
+    results: "Reduced outstanding payment collection time by 48% and Decreased accounting staff workload by 15 hours per week."
   },
   {
     title: "Social Media Content Automation Suite",
@@ -116,7 +116,7 @@ const projects = [
     expandedDescription: "Built a comprehensive system that generates platform-specific content variations, schedules posts across multiple social channels, and maintains consistent brand messaging without manual intervention. The suite includes analytics tracking, engagement monitoring, and automatic optimization of posting schedules.",
     image: socialMediaAutomationImg,
     tags: ["Social Media", "Content Automation", "Cross-Platform Publishing"],
-    results: "Increased posting consistency by 85% and reduced content creation and scheduling time from 12 hours to just 3 hours weekly."
+    results: "Increased posting consistency by 85% and Reduced content creation and Scheduling time from 12 hours to just 3 hours weekly."
   }
 ];
 
