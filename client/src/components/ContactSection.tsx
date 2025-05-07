@@ -34,7 +34,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Call Us</h3>
-                    <p className="text-gray-300">(555) 123-4567</p>
+                    <p className="text-gray-300">(604) 997-8970</p>
                   </div>
                 </div>
                 
@@ -45,8 +45,8 @@ const ContactSection = () => {
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Location</h3>
                     <p className="text-gray-300">
-                      123 Tech Plaza, Suite 400<br />
-                      San Francisco, CA 94105
+                      Remote Office At The Moment<br />
+                      Based In Vancouver, BC
                     </p>
                   </div>
                 </div>

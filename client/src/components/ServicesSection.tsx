@@ -79,7 +79,7 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Our Automation Services"
-          description="Customized AI solutions to streamline your business operations and boost productivity."
+          description="We offer a comprehensive range of automation services tailored to eliminate your most time-consuming tasks. From custom web scrapers and data processing workflows to intelligent document handling and API integrations, our solutions are designed to address your specific pain points. Whether you need to automate repetitive processes, build connections between your existing systems, or create entirely new workflows to capture lost efficiency, we bring practical solutions that deliver measurable results."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
