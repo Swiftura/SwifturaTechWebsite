@@ -3,35 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --background: 240 10% 3.9%;
+  /* New navy blue background */
+  --background: 225 30% 15%;
   --foreground: 0 0% 98%;
-  --card: 240 10% 3.9%;
+  --card: 225 30% 15%;
   --card-foreground: 0 0% 98%;
-  --popover: 240 10% 3.9%;
+  --popover: 225 30% 15%;
   --popover-foreground: 0 0% 98%;
-  --primary: 266 100% 64%;
-  --primary-foreground: 211 100% 99%;
-  --secondary: 240 3.7% 15.9%;
+  
+  /* New blue accent colors (replacing purple) */
+  --primary: 210 100% 60%;
+  --primary-foreground: 210 100% 98%;
+  --secondary: 225 30% 20%;
   --secondary-foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --accent: 240 3.7% 15.9%;
+  --muted: 225 30% 25%;
+  --muted-foreground: 215 10% 75%;
+  --accent: 210 90% 40%;
   --accent-foreground: 0 0% 98%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 240 4.9% 83.9%;
+  --border: 225 30% 25%;
+  --input: 225 30% 25%;
+  --ring: 210 100% 55%;
   --radius: 0.5rem;
   
   /* Custom colors */
-  --primary-light: 266 97% 65%;
-  --primary-dark: 266 100% 55%;
-  --secondary-light: 196 92% 58%;
-  --secondary-dark: 196 92% 40%;
-  --dark: 222 47% 11%;
-  --dark-lighter: 222 47% 15%; 
-  --dark-darker: 222 47% 8%;
+  --primary-light: 210 100% 65%;
+  --primary-dark: 210 100% 50%;
+  --secondary-light: 199 92% 58%;
+  --secondary-dark: 199 92% 40%;
+  
+  /* New dark navy backgrounds matching reference image */
+  --dark: 225 32% 14%; /* #1a1e2e */
+  --dark-lighter: 225 32% 18%; 
+  --dark-darker: 225 32% 10%;
 }
 
 html {

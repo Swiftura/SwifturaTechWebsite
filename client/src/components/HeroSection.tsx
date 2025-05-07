@@ -38,7 +38,7 @@ const HeroSection = () => {
             </a>
             <a 
               href="#services" 
-              className="bg-[#0284C7] hover:bg-[#0369A1] text-white px-8 py-3 rounded-lg text-lg transition-all transform hover:scale-105"
+              className="bg-secondary-light hover:bg-secondary-dark text-white px-8 py-3 rounded-lg text-lg transition-all transform hover:scale-105"
             >
               Explore Solutions
             </a>

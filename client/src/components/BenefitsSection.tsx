@@ -49,7 +49,7 @@ const benefits = [
 
 const BenefitsSection = () => {
   return (
-    <section id="benefits" className="py-20 bg-[#1E293B]">
+    <section id="benefits" className="py-20 bg-dark-lighter">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Benefits of AI Automation"
