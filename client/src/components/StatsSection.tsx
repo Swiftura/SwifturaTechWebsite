@@ -67,7 +67,7 @@ const StatCounter = ({ target, suffix = "", delay = 0 }: StatCounterProps) => {
 
 const StatsSection = () => {
   return (
-    <section className="py-16 bg-[#1E293B]"> {/* bg-dark-lighter */}
+    <section className="py-16 bg-dark-lighter">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ScrollAnimatedSection className="text-center p-6">

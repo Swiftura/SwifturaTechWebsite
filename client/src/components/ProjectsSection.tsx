@@ -14,7 +14,7 @@ interface ProjectCardProps {
 const ProjectCard = ({ title, description, image, tags, delay = 0 }: ProjectCardProps) => {
   return (
     <ScrollAnimatedSection
-      className="group bg-[#1E293B] rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
+      className="group bg-dark-lighter rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
       delay={delay}
     >
       <div className="overflow-hidden">
