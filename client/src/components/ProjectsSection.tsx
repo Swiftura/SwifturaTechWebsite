@@ -63,9 +63,18 @@ const ProjectCard = ({
         )}
         
         {/* Results Section */}
-        <div className="bg-dark/50 rounded-lg p-4 mb-5">
-          <h4 className="text-sm uppercase tracking-wider text-gray-400 mb-3">Results</h4>
-          <p className="text-gray-100 mb-3">{results}</p>
+        <div className="bg-dark/50 rounded-lg p-5 mb-5">
+          <h4 className="text-sm uppercase tracking-wider text-primary-light font-medium mb-3">Results</h4>
+          <div className="text-gray-100">
+            {results.split(' and ').map((result, index) => (
+              <div key={index} className="flex items-start mb-3 last:mb-0">
+                <div className="text-primary flex-shrink-0 mr-3 mt-0.5">
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary-light"></div>
+                </div>
+                <div className="text-gray-100">{result.trim()}</div>
+              </div>
+            ))}
+          </div>
         </div>
         
         <div className="flex flex-wrap gap-2 mb-4">
@@ -91,7 +100,7 @@ const projects = [
     expandedDescription: "Developed an intelligent follow-up system that automatically engages with website leads and contact form submissions, sending personalized messages based on inquiry type and following up with non-responsive leads after 24 hours. The system integrates with CRM platforms to track customer journey and optimize conversion rates.",
     image: leadNurtureImg,
     tags: ["Lead Generation", "Sales Automation", "Customer Acquisition"],
-    results: "Increased lead conversion rates by 34% and reduced response gaps by 95%, ensuring no potential client goes without follow-up."
+    results: "Increased lead conversion rates by 34% and reduced response gaps by 95% and ensures no potential client goes without follow-up."
   },
   {
     title: "Automated Invoice Follow-up System",
@@ -107,7 +116,7 @@ const projects = [
     expandedDescription: "Built a comprehensive system that generates platform-specific content variations, schedules posts across multiple social channels, and maintains consistent brand messaging without manual intervention. The suite includes analytics tracking, engagement monitoring, and automatic optimization of posting schedules.",
     image: socialMediaAutomationImg,
     tags: ["Social Media", "Content Automation", "Cross-Platform Publishing"],
-    results: "Increased posting consistency by 85% while reducing content creation and scheduling time from 12 hours to just 3 hours weekly."
+    results: "Increased posting consistency by 85% and reduced content creation and scheduling time from 12 hours to just 3 hours weekly."
   }
 ];
 
