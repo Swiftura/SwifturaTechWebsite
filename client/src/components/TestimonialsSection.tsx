@@ -18,28 +18,28 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Jane Doe",
-    role: "CTO",
-    company: "TechCorp Inc.",
-    text: "Swiftura's document processing automation saved our team countless hours of manual data entry. What used to take days now happens in minutes with greater accuracy. The ROI was evident within the first month.",
+    name: "Joseph",
+    role: "Operations Manager",
+    company: "Spark Moving",
+    text: "As a moving service, responding quickly to inquiries is critical to our business. Swiftura designed an automated email response system that not only acknowledges customer inquiries instantly but intelligently follows up after 24-48 hours if we haven't heard back. Since implementation, our lead conversion rate has increased by 42%, and we're booking more moves with the same team size. Mason's solution has been a game-changer for our growth.",
     rating: 5,
     initials: "JD"
   },
   {
     id: 2,
-    name: "John Smith",
-    role: "Operations Director",
-    company: "Global Logistics",
-    text: "Implementing Swiftura's workflow automation solution has been transformative for our business. Our team is now focusing on strategic work instead of repetitive tasks, and our client satisfaction scores have improved dramatically.",
+    name: "Rebecca",
+    role: "Content Director",
+    company: "Horizon Digital",
+    text: "Working with Swiftura revolutionized our content production workflow. The AI content generation system Mason customized for us produces consistently on-brand material across multiple channels in a fraction of the time. What used to take our team an entire week now happens semi-automatically in just a few hours. The quality is excellent, requiring minimal editing, and has allowed us to triple our content output while maintaining our unique voice.",
     rating: 5,
     initials: "JS"
   },
   {
     id: 3,
-    name: "Lisa Johnson",
-    role: "CEO",
-    company: "Retail Solutions",
-    text: "Mason and the Swiftura team delivered a custom AI solution that exceeded our expectations. Their inventory forecasting system has helped us reduce costs while improving product availability. Highly recommended.",
+    name: "Cameron",
+    role: "Head of Marketing",
+    company: "Rendur",
+    text: "Swiftura transformed our customer engagement strategy with their RAG chatbot implementation. The system handles inquiries 24/7 with remarkable accuracy and maintains our brand voice perfectly. We've seen a 28% increase in conversion rates as the chatbot intelligently guides customers through their purchasing decisions. Mason understood our ecommerce needs from day one and delivered a solution that pays for itself many times over.",
     rating: 5,
     initials: "LJ"
   }
