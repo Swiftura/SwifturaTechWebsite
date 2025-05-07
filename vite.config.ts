@@ -4,7 +4,7 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig({
-  base: "/SwifturaTechWebsite/", // Needed for GitHub Pages routing
+  base: "/", // Needed for GitHub Pages routing
   plugins: [
     react(),
     runtimeErrorOverlay(),
