@@ -116,7 +116,7 @@ const projects = [
     expandedDescription: "Built a comprehensive system that generates platform-specific content variations, schedules posts across multiple social channels, and maintains consistent brand messaging without manual intervention. The suite includes analytics tracking, engagement monitoring, and automatic optimization of posting schedules.",
     image: socialMediaAutomationImg,
     tags: ["Social Media", "Content Automation", "Cross-Platform Publishing"],
-    results: "Increased posting consistency by 85% and Reduced content creation and Scheduling time from 12 hours to just 3 hours weekly."
+    results: "Increased posting consistency by 85% and Reduced content creation time by 75% and Scheduling time from 12 hours to just 3 hours weekly"
   }
 ];
 
